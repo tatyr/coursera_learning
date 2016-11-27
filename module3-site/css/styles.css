@@ -1,0 +1,83 @@
+body {
+  font-size: 16px;
+  color: #000000;
+  background-color: #ffffff;
+  font-family: 'Oxygen', sans-serif;
+  margin-top:0;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #aaaaaa;
+
+  border-radius: 0;
+  border-color:#000000;
+  border-style:solid none solid none;
+  border-width:2px;
+  margin-left:0;
+
+
+}
+
+.navbar-brand {
+  vertical-align: middle;
+}
+
+.navbar-brand h1 { /* Page name */
+  font-family: 'Lora', serif;
+  color: #000000;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  line-height: .75;
+
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+/**Collapsible menu **/
+#nav-list {
+  margin-top: 0;
+  margin-bottom:0;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+#nav-list li{
+	border-style:none none solid none;
+	border-width:2px;
+	background-color: #c7c7c7;
+}
+
+
+/** Content **/
+
+
+#main-content h2{
+	font-weight:bolder;
+}
+
+.menu-item-description{
+
+	background-color:#bbbbbb;
+	padding:15px;
+	margin-bottom:20px;	
+}
+
+.menu-item-description h3{
+
+	margin-top:5px;	
+	font-weight:bold;
+}
+
+
+
